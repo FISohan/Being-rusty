@@ -1,8 +1,8 @@
 fn main() {
-    for i in (0..10) {
-    let f = nth_fiboncci(i);
-    println!("{i}th {f}");
-    }
+
+    let s1 = String::from("sohan");
+    let s2 = s1.clone();
+    println!("{} its s1",s1);
 
 }
 
